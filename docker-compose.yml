@@ -20,7 +20,7 @@ services:
       --http.addr 0.0.0.0
       --http.port 8545
       --http.api all
-      --follow ws://135.181.56.236:8546
+      --follow ws://204.168.179.190:18546
     logging:
       driver: json-file
       options:
