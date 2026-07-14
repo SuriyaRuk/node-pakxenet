@@ -60,7 +60,12 @@ The node syncs headers in batches and finalizes blocks as forkchoice updates arr
 │   └── genesis.json     # Chain spec
 ├── data/                # Chain data (created at runtime, not committed)
 └── docs/
-    └── node-sync.jpg    # Sync log screenshot
+    ├── node-sync.jpg    # Sync log screenshot
+    └── tempo-node-deep-research-report.pdf
 ```
+
+## Reference
+
+- [Tempo Node — Deep Research Report](docs/tempo-node-deep-research-report.pdf)
 
 Container logs are capped at 3 × 10 MB via the json-file logging driver.
